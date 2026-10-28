@@ -58,7 +58,7 @@ private long hash(String s, int M) {
    
    3.2. qual a complexidade, no pior caso?
 
-4. Modifique esta implementação, agora, utilizando o Rolling Hash, para resolver o mesmo problema anterior.
+4. Modifique esta implementação, agora, utilizando o Rolling Hash (pesquise uma implementação deste hash), para resolver o mesmo problema anterior.
 
    4.1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
    
