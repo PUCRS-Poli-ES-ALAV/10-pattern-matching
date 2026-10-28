@@ -58,8 +58,14 @@ private long hash(String s, int M) {
    
    3.2. qual a complexidade, no pior caso?
 
+4. Modifique esta implementação, agora, utilizando o Rolling Hash, para resolver o mesmo problema anterior.
+
+   4.1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
+   
+   4.2. qual a complexidade, no pior caso?
+
 ## Enunciado 3
-4. O algoritmo de Knuth-Morris-Pratt utiliza um vetor auxiliar (LPS - Longest Proper Prefix) para resolver o problema de busca de padrões em string. O algoritmo está dado abaixo.
+5. O algoritmo de Knuth-Morris-Pratt utiliza um vetor auxiliar (LPS - Longest Proper Prefix) para resolver o problema de busca de padrões em string. O algoritmo está dado abaixo.
 
 ```javascript
 // KMP pattern searching algorithm 
@@ -131,7 +137,7 @@ class KMP_String_Matching {
 	} 
 ```
 
-5. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
+6. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
 
    5.1. Teste-o para strings grandes (>500.000 caracteres); 
    
